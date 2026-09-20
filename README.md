@@ -1,4 +1,4 @@
-# Vim config
+# Mini-Vim
 
 ## About
 
