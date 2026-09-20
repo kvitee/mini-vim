@@ -2,31 +2,30 @@
 
 ## About
 
-My `.vimrc` config file. In-addition to the built-in settings loads
-some plugins and colorschemes using [Vim-Plug](https://github.com/junegunn/vim-plug) plugin manager.
+Setup script for Vim config from my [`dots`](https://github.com/kvitee/dots) repo.
+It automatically downloads `.vimrc` config,
+[Vim-Plug](https://github.com/junegunn/vim-plug) plugin manager and installs plugins.
 
 ### Plugins
 
-- [`sparkup`](https://github.com/rstacruz/sparkup) - Quickly write HTML.
+Config includes the following plugins:
+
 - [`vim-surround`](https://github.com/tpope/vim-surround) - Quickly surround
-e words and lines with parentheses, quotes, tags and more.
-- [`vim-sneak`](https://github.com/justinmk/vim-sneak) - Quickly search
-  by few characters.
-- [`vim-javascript`](https://github.com/pangloss/vim-javascript) - Improved
-  JS syntax highlighting and indentation.
+anything with parentheses and quotes;
+- [`fzf`](https://github.com/junegunn/fzf) - The base fzf integration plugin;
+- [`fzf.vim`](https://github.com/junegunn/fzf.vim) - Fzf-powered search
+across files, buffers, history and more;
 
-### Colorschemes
+### Colorscheme
 
-- [`gruvbox`](https://github.com/morhetz/gruvbox) by `morhetz`.
-- [`material`](https://github.com/kaicataldo/material.vim) by `kaicataldo`.
-- [`ayu`](https://github.com/ayu-theme/ayu-vim) by `ayu-theme`.
+Config uses [`ayu`](https://github.com/ayu-theme/ayu-vim) by `ayu-theme` colorscheme.
 
 ## Installation
 
-Just get installation script and run it:
+Get installation script and run it:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/kvitee/vim-config/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/kvitee/mini-vim/main/setup.sh | sh
 ```
 
-If You had some `.vimrc` file before it will be moved to `~/.pre.vimrc` file.
+If You have already some `.vimrc` config it will be moved to `~/.pre.vimrc` file.
